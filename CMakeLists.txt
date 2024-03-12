@@ -3,4 +3,10 @@ project(LABA2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(LABA2 main.cpp)
+add_executable(LABA2 main.cpp
+        Shalter.h
+        Shalter.cpp
+        Person.h
+        Person.cpp
+        Pets.h
+        Pets.cpp)
