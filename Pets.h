@@ -12,6 +12,8 @@ private:
 
 public:
     void getPets() const;
+    void setPets();
+
     Pets(string newNamePet="None", string newType="None",
          int newAge=0);
     ~Pets();
