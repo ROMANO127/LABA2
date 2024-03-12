@@ -16,9 +16,7 @@ void Pets::setPets() {
     string newType;
     int age;
 
-    cin >> newName
-    >> newType
-    >> age;
+    cin >> newName >> newType >> age;
 
     this -> name = newName;
     this -> type = newType;
