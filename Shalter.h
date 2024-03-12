@@ -12,6 +12,8 @@ private:
 public:
     Shalter(string newName="None", string newType="");
     ~Shalter();
+
+
 };
 
 #endif //UNTITLED2_SHALTER_H
