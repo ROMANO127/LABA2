@@ -11,10 +11,16 @@ int main() {
     acceptablePets.setPets();
     acceptablePets.getPets();
 
+    cout << "\n";
+
+    for(int i = 0; i < 200; i++){
+        cout << "=";
+    }
+
     cout << "\n\n"
     << "Print some information about person: " << "\n";
 
-    Person somePerson("", {}, {}, "");
+    Person somePerson("", "", {}, "");
     somePerson.setPerson();
     somePerson.getPerson();
 

@@ -9,14 +9,14 @@ using namespace std;
 class Person{
 private:
     string name;
-    int experience;
+    string experience;
     int age;
     string sex;
 public:
     void getPerson() const;
     void setPerson();
 
-    Person(string newName="None", int experience = 0, int age=0, string sex = "None");
+    Person(string newName="None", string experience = "none", int age = 0, string sex = "None");
     ~Person();
 
 };

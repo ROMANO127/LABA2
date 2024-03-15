@@ -9,23 +9,24 @@ using namespace std;
 void Person::getPerson() const {
     cout << "\nName of Person: " << name
          << "\nExperience of Person: " << experience
-         << "\nEnter Person's age: " << age
-         << "\nEnter Person's sex: " << sex;
+         << "\nPerson's age: " << age
+         << "\nPerson's sex: " << sex;
 
 }
 void Person::setPerson() {
     string newName;
-    int newExperience;
-    int age;
-    string sex;
+    string newExperience;
+    int newAge;
+    string newSex;
 
-    cin >> name >> experience >> age >> sex;
+
 
     this -> name = newName;
     this -> experience = newExperience;
-    this -> age = age;
-    this -> sex = sex;
+    this -> age = newAge;
+    this -> sex = newSex;
 
+    cin >> name >> experience >> age >> sex;
 
 
 }
@@ -35,7 +36,7 @@ void Person::setPerson() {
 
 
 
-Person::Person(std::string newName, int experience,
+Person::Person(std::string newName, string experience,
              int age, string sex) {}
 
 Person::~Person(){}
