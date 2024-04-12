@@ -32,12 +32,14 @@ void Person::setPerson() {
 
 Person::Person(std::string newName, string experience,
              int age, string sex) {}
-
-Person::~Person(){}
-
 Person::Person(const Person &other) {
 
 }
 
+Person::~Person(){}
+
+Person::Person(Person &&other) {
+
+}
 
 

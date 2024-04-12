@@ -1,5 +1,6 @@
 
 #include <string>
+#include <utility>
 
 #ifndef LABA2_PERSON_H
 #define LABA2_PERSON_H
@@ -18,6 +19,7 @@ public:
 
     Person(string newName="None", string experience = "none", int age = 0, string sex = "None");
     Person(const Person& other);
+    Person(Person&& other);
     ~Person();
 
 };
