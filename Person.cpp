@@ -1,4 +1,3 @@
-
 #include "Person.h"
 #include <iostream>
 #include <string>
@@ -31,15 +30,14 @@ void Person::setPerson() {
 
 }
 
-
-
-
-
-
 Person::Person(std::string newName, string experience,
              int age, string sex) {}
 
 Person::~Person(){}
+
+Person::Person(const Person &other) {
+
+}
 
 
 

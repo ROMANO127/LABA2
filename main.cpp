@@ -6,19 +6,19 @@
 using namespace std;
 
 int main() {
-    cout << "Pirnt some information about Pet: " << "\n";
-    Pets acceptablePets("", {}, {});
+    cout << "Print name, type and age of pet: " << "\n";
+    Pets acceptablePets("", "", {});
     acceptablePets.setPets();
     acceptablePets.getPets();
 
     cout << "\n";
 
-    for(int i = 0; i < 200; i++){
+    for(int i = 0; i < 100; i++){
         cout << "=";
     }
 
     cout << "\n\n"
-    << "Print some information about person: " << "\n";
+    << "Print name, experience, age and sex of Person: " << "\n";
 
     Person somePerson("", "", {}, "");
     somePerson.setPerson();

@@ -14,8 +14,10 @@ public:
     void getPets() const;
     void setPets();
 
-    Pets(string newNamePet="None", string newType="None",
-         int newAge=0);
+    Pets();
+    Pets(string newName = "None");
+    Pets(string newName = "None", string newType = "none");
+    Pets(string newName = "None", string newType = "none", int newAge = 0);
     ~Pets();
 
 

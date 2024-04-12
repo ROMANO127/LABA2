@@ -8,9 +8,8 @@ using namespace std;
 class Shalter{
 private:
     string name;
-    string type;
 public:
-    Shalter(string newName="None", string newType="");
+    Shalter(string newName="None");
     ~Shalter();
 
 

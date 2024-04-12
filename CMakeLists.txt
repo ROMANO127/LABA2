@@ -9,4 +9,5 @@ add_executable(LABA2 main.cpp
         Person.h
         Person.cpp
         Pets.h
+        Pets.cpp
         Pets.cpp)
