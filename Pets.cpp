@@ -28,8 +28,7 @@ Pets::Pets(std::string newName, std::string newType, int newAge)
         :name{std::move(newName)}, type{std::move(newType)}, age{newAge} {}
 Pets::Pets(const Pets& other) : name(other.name), type(other.type), age(other.age) {}
 Pets::Pets(Pets&& other) noexcept
-        : name(move(other.name)), type(move(other.type)), age(other.age) {
-}
+        : name(move(other.name)), type(move(other.type)), age(other.age) {}
 Pets::~Pets() {};
 
 

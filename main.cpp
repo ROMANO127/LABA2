@@ -7,9 +7,14 @@ using namespace std;
 
 int main() {
     cout << "Print name, type and age of pet: " << "\n";
-    Pets acceptablePets("", "", {});
-    acceptablePets.setPets();
-    acceptablePets.getPets();
+//    Pets acceptablePets("", "", {});
+//    acceptablePets.setPets();
+//    acceptablePets.getPets();
+
+
+    cout << "\n";
+    const Pets myPet("Whiskers", "Cat", 5);
+    myPet.getPets();
 
     cout << "\n";
 
@@ -23,6 +28,9 @@ int main() {
     Person somePerson("", "", {}, "");
     somePerson.setPerson();
     somePerson.getPerson();
+
+
+
 
     return 0;
 }
