@@ -17,6 +17,7 @@ public:
     Pets();
     Pets(string newName = "None", string newType = "none", int newAge = 0);
     Pets(const Pets& other);
+    Pets(Pets&& other) noexcept;
     ~Pets();
 
 
