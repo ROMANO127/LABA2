@@ -24,11 +24,9 @@ void Pets::setPets() {
 }
 
 Pets::Pets() {}
-Pets::Pets(std::string
- newName):name{std::move(newName)}{}
-Pets::Pets(std::string newName, std::string newType)
-    :name{std::move(newName)}, type{std::move(newType)}{}
 Pets::Pets(std::string newName, std::string newType, int newAge)
-        :name{std::move(newName)}, type{std::move(newType)}, age{newAge}
-{}
-Pets::~Pets() = default;
+        :name{std::move(newName)}, type{std::move(newType)}, age{newAge} {}
+Pets::Pets(const Pets& other) : name(other.name), type(other.type), age(other.age) {}
+Pets::~Pets() {};
+
+

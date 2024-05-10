@@ -19,7 +19,6 @@ public:
 
     Person(string newName="None", string experience = "none", int age = 0, string sex = "None");
     Person(const Person& other);
-    Person(Person&& other);
     ~Person();
 
 };
