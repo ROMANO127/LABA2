@@ -28,6 +28,7 @@ void Person::setPerson() {
     cin >> name >> experience >> age >> sex;
 
 
+
 }
 
 Person::Person(std::string newName, string experience,

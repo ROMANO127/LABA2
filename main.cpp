@@ -6,15 +6,15 @@
 using namespace std;
 
 int main() {
-    cout << "Print name, type and age of pet: " << "\n";
-//    Pets acceptablePets("", "", {});
-//    acceptablePets.setPets();
-//    acceptablePets.getPets();
-
+    cout << "Hello! Welcome to the shelter Wiskas." << endl;
+    cout << "There is available pets in our shelter:" << endl;
 
     cout << "\n";
     const Pets myPet("Whiskers", "Cat", 5);
+    const Pets myPet2("Beethowen", "dog", 12);
     myPet.getPets();
+    cout << "\n\n";
+    myPet2.getPets();
 
     cout << "\n";
 
@@ -22,12 +22,14 @@ int main() {
         cout << "=";
     }
 
-    cout << "\n\n"
-    << "Print name, experience, age and sex of Person: " << "\n";
+    cout << "\n\n";
+    cout << "Please write your name, experience, age and sex" << "\n";
+
 
     Person somePerson("", "", {}, "");
     somePerson.setPerson();
     somePerson.getPerson();
+
 
 
 

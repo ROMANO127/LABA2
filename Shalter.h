@@ -1,5 +1,3 @@
-#ifndef UNTITLED2_SHALTER_H
-#define UNTITLED2_SHALTER_H
 #include "pets.h"
 
 
@@ -15,4 +13,3 @@ public:
 
 };
 
-#endif //UNTITLED2_SHALTER_H
